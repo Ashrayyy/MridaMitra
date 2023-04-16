@@ -29,6 +29,10 @@
             android:icon="@drawable/ic_fert"
             android:title="Fertilisers" />
         <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout"
             android:title="Logout" />

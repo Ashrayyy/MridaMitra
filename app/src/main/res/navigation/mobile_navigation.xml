@@ -37,4 +37,10 @@
         android:name="com.ashray.mridamitra.ui.slideshow.SlideshowFragment"
         android:label="Fertilisers"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.ashray.mridamitra.ChatFragment"
+        android:label="Mrida Mitra"
+        tools:layout="@layout/fragment_chat" />
+
 </navigation>
