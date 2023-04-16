@@ -6,15 +6,31 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_humidity"
+            android:icon="@drawable/ic_humidity"
+            android:title="Humidity" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_temp"
+            android:icon="@drawable/ic_temp"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_moisture"
+            android:icon="@drawable/ic_moisture"
+            android:title="Moisture" />
+        <item
+            android:id="@+id/nav_irrigation"
+            android:icon="@drawable/ic_water"
+            android:title="Irrigation" />
+        <item
+            android:id="@+id/nav_fert"
+            android:icon="@drawable/ic_fert"
+            android:title="Fertilisers" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
     </group>
 </menu>

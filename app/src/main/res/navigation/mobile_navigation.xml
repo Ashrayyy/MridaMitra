@@ -12,14 +12,29 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.ashray.mridamitra.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_humidity"
+        android:name="com.ashray.mridamitra.ui.humidity.HumidityFragment"
+        android:label="Humidity"
+        tools:layout="@layout/fragment_humidity" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_temp"
+        android:name="com.ashray.mridamitra.ui.temp.TemperatureFragment"
+        android:label="Temperature"
+        tools:layout="@layout/fragment_temperature" />
+    <fragment
+        android:id="@+id/nav_moisture"
+        android:name="com.ashray.mridamitra.ui.moisture.MositureFragment"
+        android:label="Moisture"
+        tools:layout="@layout/fragment_mositure" />
+    <fragment
+        android:id="@+id/nav_irrigation"
+        android:name="com.ashray.mridamitra.ui.irrigation.IrrigationFragment"
+        android:label="Irrigation"
+        tools:layout="@layout/fragment_irrigation" />
+    <fragment
+        android:id="@+id/nav_fert"
         android:name="com.ashray.mridamitra.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Fertilisers"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
