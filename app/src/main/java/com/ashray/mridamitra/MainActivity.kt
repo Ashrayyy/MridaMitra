@@ -3,6 +3,7 @@ package com.ashray.mridamitra
 import android.os.Bundle
 import android.view.Menu
 import android.widget.Button
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -26,8 +27,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarMain.toolbar)
-
-        binding.appBarMain.fab.setOnClickListener { view ->
+        var a=0
+        val button =binding.appBarMain.fab
+        button.setOnClickListener { view ->
+            if(a%2==0){
+                button.setBackgroundResource(R.drawable.baseline_pause_ic_pause)
+            }
+            else{
+                button.setBackgroundResource(R.drawable.ic_temp)
+            }
+            a+=1
             Snackbar.make(view, "Done, Farm irrigated!", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
