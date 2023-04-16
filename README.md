@@ -10,7 +10,7 @@ In the absence of smart irrigation system, it leads to poor yield and unjustifia
 ## Solution
   i.	Monitoring the soil moisture using soil moisture sensor.
   ii.	Deploying ml algorithm for taking decision when to irrigate or when to not.This result in better production of crop and water saving.
-  iii.Deploying a mobile application which helps in continuously monitoring the soil mositure status and helps in predicting when to irrigate or when to not irriagte the field. Using this mobile application we can also control the pump to irriagte the system.
+  iii.Deploying a mobile application which helps in continuously monitoring the soil mositure status and helps in predicting when to irrigate or when to not irrigate the field. Using this mobile application we can also control the pump to irriagte the system.
 
 
 # Objectives
@@ -18,7 +18,7 @@ In the absence of smart irrigation system, it leads to poor yield and unjustifia
 2.	To collect data from the sensor for irrigation-based data analysis.
 3.	To analyse the collected data and implementation of machine learning algorithms to develope an optimal model 
 4.	Implementation of different supervised machine algorithms to develop an optimal data analysis model for taking decision when to irrigate or when to not.
-5.  Deploying a mobile application which helps in continuously monitoring the soil mositure status and helps in predicting when to irrigate or when to not irriagte the field. Using this mobile application we can also control the pump to irriagte the system.
+5.  Deploying a mobile application which helps in continuously monitoring the soil mositure status and helps in predicting when to irrigate or when to not irrigate the field. Using this mobile application we can also control the pump to irriagte the system.
 
 # Result
 MridaMitra is a mobile Application that takes takes the continuous data from a soil moisture monitoring system. This soil mositure monitoring system uses soil moisture sensors, DHT11 Temperature and Humidity sensor to measure the soil moisture status, surrounding temperature and humidity.
